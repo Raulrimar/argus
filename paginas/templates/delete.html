@@ -1,0 +1,6 @@
+<p>Excluir a task "{{itens}}"?</p>
+<a href="{% url 'list'%}">Cancelar</a>
+<form metod="POST">
+{% {% csrf_token %} %}
+<impu type="submit">
+</form>
